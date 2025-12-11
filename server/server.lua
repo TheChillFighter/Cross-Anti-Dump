@@ -16,7 +16,7 @@ AddEventHandler("loadRes-"..resName, function(key)
         antiDump[stringScr] = true
         TriggerClientEvent("loadRes-"..resName.."-"..key, src, contents)
     else
-        DropPlayer(src, "Yarrak Dumplarsın!")
+        DropPlayer(src, "You're a dickhead!")
     end
 end)
 
